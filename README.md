@@ -14,6 +14,6 @@ In Data Analysis tab select the given query and retrieve data for getting Youtub
 Technology used Python,Streamlit, Mongo DB and MySQL.
 ## Authors
 
-- (https://www.github.com/kavitharamanrk/Data Science)
+- (https://www.github.com/kavitharamanrk/Data-Science)
 
 Kavitha Raman
