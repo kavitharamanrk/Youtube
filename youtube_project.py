@@ -21,10 +21,10 @@ import re
 
 
 
-api_key = "AIzaSyAlhBTp0He5Bv3ak5HsAzl8RDFagWj6FhQ"
+api_key = "AIzaSyA5HsAzl8RDFagWj6FhQ"
 yt = build('youtube', 'v3', developerKey=api_key)
 
-dbname="Youtube_Channels"
+dbname=""
 
 def MongoDBConnection():
   try:
@@ -42,7 +42,7 @@ def mySqlConnection(query,querytype):
     mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="myData1",
+    password="",
     database=dbname,
     )
     mycursor = mydb.cursor(buffered=True)
@@ -55,8 +55,7 @@ def mySqlConnection(query,querytype):
     print("SQL DB Connection error:",{e})
   finally:
     print("DB Connected")  
-  print("DB Closed")
-  return lis
+    return lis
     
 # Channel
 def get_channel_info(yt,channel_id):
