@@ -12,8 +12,5 @@ In Migration tab there is a Option to select a channel name and migrate its data
 In Data Analysis tab select the given query and retrieve data for getting Youtube video channel related details.Here can view line, bar and scatter chart  for few queries.
 
 Technology used Python,Streamlit, Mongo DB and MySQL.
-## Authors
 
-- (https://www.github.com/kavitharamanrk/Data-Science)
-
-Kavitha Raman
+- Kavitha Raman
