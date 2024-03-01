@@ -21,14 +21,14 @@ import re
 
 
 
-api_key = "AIzaSyA5HsAzl8RDFagWj6FhQ"
+api_key = ""
 yt = build('youtube', 'v3', developerKey=api_key)
 
 dbname=""
 
 def MongoDBConnection():
   try:
-      client=MongoClient("mongodb+srv://kmongo:<password>@cluster0.xk9vmfy.mongodb.net/?retryWrites=true&w=majority")
+      client=MongoClient("")
       db = client.youtube
       Collection=db.channel
       print("Pinged your deployment. You successfully connected to MongoDB!")
